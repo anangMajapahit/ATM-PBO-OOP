@@ -1,0 +1,66 @@
+@startuml
+class atm_sederhana.Atm_sederhana
+class atm_sederhana.Login
+class atm_sederhana.akun
+class atm_sederhana.config
+class atm_sederhana.halaman_utama
+class atm_sederhana.setor_tunai
+class atm_sederhana.tarik_tunai
+class atm_sederhana.transfer
+class java.awt.Frame
+class java.sql.Connection
+class java.sql.DriverManager
+class java.sql.PreparedStatement
+class java.sql.ResultSet
+class java.sql.SQLException
+class java.sql.Statement
+class javax.swing.JFrame
+class javax.swing.JOptionPane
+atm_sederhana.Login --|> java.awt.Frame
+atm_sederhana.Login ..> java.sql.Connection
+atm_sederhana.Login ..> java.sql.DriverManager
+atm_sederhana.Login ..> java.sql.PreparedStatement
+atm_sederhana.Login ..> java.sql.ResultSet
+atm_sederhana.Login ..> java.sql.Statement
+atm_sederhana.Login ..> javax.swing.JOptionPane
+atm_sederhana.akun --|> java.awt.Frame
+atm_sederhana.akun ..> java.sql.Connection
+atm_sederhana.akun ..> java.sql.DriverManager
+atm_sederhana.akun ..> java.sql.PreparedStatement
+atm_sederhana.akun ..> java.sql.ResultSet
+atm_sederhana.akun ..> java.sql.Statement
+atm_sederhana.akun ..> javax.swing.JFrame
+atm_sederhana.akun ..> javax.swing.JOptionPane
+atm_sederhana.config ..> java.sql.Connection
+atm_sederhana.config ..> java.sql.DriverManager
+atm_sederhana.config ..> java.sql.SQLException
+atm_sederhana.halaman_utama --|> java.awt.Frame
+atm_sederhana.halaman_utama ..> java.sql.Connection
+atm_sederhana.halaman_utama ..> java.sql.DriverManager
+atm_sederhana.halaman_utama ..> java.sql.PreparedStatement
+atm_sederhana.halaman_utama ..> java.sql.ResultSet
+atm_sederhana.halaman_utama ..> java.sql.Statement
+atm_sederhana.halaman_utama ..> javax.swing.JFrame
+atm_sederhana.halaman_utama ..> javax.swing.JOptionPane
+atm_sederhana.setor_tunai --|> java.awt.Frame
+atm_sederhana.setor_tunai ..> java.sql.Connection
+atm_sederhana.setor_tunai ..> java.sql.DriverManager
+atm_sederhana.setor_tunai ..> java.sql.PreparedStatement
+atm_sederhana.setor_tunai ..> java.sql.ResultSet
+atm_sederhana.setor_tunai ..> java.sql.Statement
+atm_sederhana.setor_tunai ..> javax.swing.JOptionPane
+atm_sederhana.tarik_tunai --|> java.awt.Frame
+atm_sederhana.tarik_tunai ..> java.sql.Connection
+atm_sederhana.tarik_tunai ..> java.sql.DriverManager
+atm_sederhana.tarik_tunai ..> java.sql.PreparedStatement
+atm_sederhana.tarik_tunai ..> java.sql.ResultSet
+atm_sederhana.tarik_tunai ..> java.sql.Statement
+atm_sederhana.tarik_tunai ..> javax.swing.JOptionPane
+atm_sederhana.transfer --|> java.awt.Frame
+atm_sederhana.transfer ..> java.sql.Connection
+atm_sederhana.transfer ..> java.sql.DriverManager
+atm_sederhana.transfer ..> java.sql.PreparedStatement
+atm_sederhana.transfer ..> java.sql.ResultSet
+atm_sederhana.transfer ..> java.sql.Statement
+atm_sederhana.transfer ..> javax.swing.JOptionPane
+@enduml
